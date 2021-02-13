@@ -903,7 +903,7 @@
   font-family: "Elephant";
   font-style: regular;
   font-weight: 400;
-  src: url(/fonts/elephant-regular.woff2?8c3308285bcb3b1e9b61cdaa7343a3da) format("woff2");
+  src: url(../fonts/elephant-regular.woff2?8c3308285bcb3b1e9b61cdaa7343a3da) format("woff2");
 }
 
 * {
@@ -1114,7 +1114,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: url("/img/bg.png");
+  background-image: url("../img/bg.png");
   opacity: 0.8;
 }
 
@@ -1127,14 +1127,14 @@ img {
 }
 
 .fixed-img.plant {
-  background-image: url("/img/plant.png");
+  background-image: url("../img/plant.png");
   width: 130px;
   height: 250px;
   left: calc(50% - 570px);
 }
 
 .fixed-img.table {
-  background-image: url("/img/table.png");
+  background-image: url("../img/table.png");
   width: 140px;
   height: 140px;
   right: calc(50% - 575px);
